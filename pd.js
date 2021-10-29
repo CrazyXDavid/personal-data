@@ -82,3 +82,7 @@ var lastname = () => {
 var email = () => {
     return firstname + lastname + Math.floor(Math.random() * 9999) + '@gmail.com'
 }
+
+var telephone = () => {
+    return Math.floor(Math.random() * 79999999) + 20000000
+}
